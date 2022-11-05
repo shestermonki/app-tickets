@@ -50,7 +50,7 @@ class TicketControl {
     this.tickets.push(ticket);
 
     this.guardarDB();
-    return "Ticket" + this.ultimo;
+    return "Ticket " + this.ultimo;
   }
 
   atenderTicket(escritorio) {
